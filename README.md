@@ -41,10 +41,10 @@ This project integrates financial data analysis, stock price prediction using ma
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/your-username/financial-analysis-and-prediction.git
-   cd financial-analysis-and-prediction
+   https://github.com/atchudhansg/Financial-Data-Analysis-Stock-Prediction-with-ML-Web-Scraping.git
+   cd Financial-Data-Analysis-Stock-Prediction-with-ML-Web-Scraping
 
-2. Installing Dependencies:
+2. **Installing Dependencies:**
    
    pip install -r requirements.txt
 
