@@ -45,11 +45,11 @@ This project integrates financial data analysis, stock price prediction using ma
    git clone https://github.com/atchudhansg/Financial-Data-Analysis-Stock-Prediction-with-ML-Web-Scraping.git
    cd Financial-Data-Analysis-Stock-Prediction-with-ML-Web-Scraping
 
-2. **Installing Dependencies:**
+
+2. **Install Dependencies:**
    ```sh
    pip install -r requirements.txt
-
-4. Place the result1.csv file in the root directory of the project.
+3. Place the result1.csv file in the root directory of the project.
 
 ## Usage:
 
@@ -77,4 +77,32 @@ This project serves several practical purposes:
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
+
+## How This Project is Useful
+
+This project serves several practical purposes:
+
+- **Investment Decision Support:** By predicting stock prices and assessing investment risks, investors can make informed decisions on buying, selling, or holding stocks.
+- **Market Sentiment Analysis:** Analyzing market sentiment from news headlines helps in understanding public perception and potential market trends.
+- **Educational Purposes:** The project demonstrates practical applications of machine learning in finance, including data preprocessing, model training, evaluation, and visualization.
+- **Automation:** Automated scripts for data scraping and analysis reduce manual effort and streamline information gathering.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Yahoo Finance Data Scraping
+
+To fetch historical data from Yahoo Finance, use the following code snippet:
+
+```python
+import time
+import datetime
+
+ticker = 'INR=X'
+period1 = int(time.mktime(datetime.datetime(2003, 1, 1, 23, 59).timetuple()))
+period2 = int(time.mktime(datetime.datetime(2020, 4, 28, 23, 59).timetuple()))
+interval = '1d'
+query_string = f'https://query1.finance.yahoo.com/v7/finance/download/{ticker}?period1={period1}&period2={period2}&interval={interval}&events=history&includeAdjustedClose=true;'
+print(query_string)
 
