@@ -61,7 +61,7 @@ This project integrates financial data analysis, stock price prediction using ma
     actual values using matplotlib.
  - Execute stock_analysis.py to perform web scraping and sentiment analysis on LiveMint market news:
    ```sh
-   python stock_analysis.py
+   python Stock Analysis.py
  - The script scrapes market news headlines from LiveMint and analyzes sentiment using a pre-trained transformer model (cardiffnlp/twitter-roberta-base-sentiment). It prints sentiment labels and scores for each headline and news item.
  - Open finalmodel.ipynb for detailed risk assessment using the trained model. The notebook assesses investment risks based on predicted prices, historical data, and financial metrics. It utilizes a defined function for risk assessment based on expected return and historical volatility.
 
