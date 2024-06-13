@@ -91,6 +91,12 @@ This project serves several practical purposes:
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
+
+## Screenshot of Stock Analysis.py:
+
+![Screenshot](https://github.com/atchudhansg/Financial-Data-Analysis-Stock-Prediction-with-ML-Web-Scraping/assets/116624804/9771c19b-4560-4ee8-a199-7a8457298d79)
+
+
 ## Yahoo Finance Data Scraping
 
 To fetch historical data from Yahoo Finance, use the following code snippet:
@@ -105,4 +111,5 @@ period2 = int(time.mktime(datetime.datetime(2020, 4, 28, 23, 59).timetuple()))
 interval = '1d'
 query_string = f'https://query1.finance.yahoo.com/v7/finance/download/{ticker}?period1={period1}&period2={period2}&interval={interval}&events=history&includeAdjustedClose=true;'
 print(query_string)
+
 
