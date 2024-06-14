@@ -101,7 +101,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 To fetch historical data from Yahoo Finance, use the following code snippet:
 
-ticker contains the name of stock as mentioend in Yahoo Finance.
+The 'ticker' variable contains the name of stock as mentioend in Yahoo Finance, and the output string returns a link from where the dataset (`result1.csv`) can be downloaded.
 
 ```python
 import time
